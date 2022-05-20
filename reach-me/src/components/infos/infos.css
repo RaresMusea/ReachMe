@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+.CurrentProfile{
+  transform: scale(1.4);
+}
+
+.Info{
+  width: 340px;
+  height:100px;
+  margin-top: 50px;  
+  display: flex;
+  align-items: center;
+}
+
+.CurrentUser{
+  margin:5px;
+  cursor:poiner;
+  font-family: 'PT Sans',sans-serif;
+  font-weight: bolder;
+
+}
+
+.Description{
+  margin:5px;
+  font-family: 'PT Sans',sans-serif;
+}
+
+.InfoContents{
+  margin-left:15px;
+}

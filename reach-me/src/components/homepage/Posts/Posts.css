@@ -1,0 +1,19 @@
+.UploadButton{
+  width:620px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.uploadImage{
+  width:60px;
+  height:60px;
+  display:block;
+  text-align: center;
+  margin-top:20px;
+  transition: transform .5s ease-in-out;
+}
+
+.uploadImage:hover{
+  transform:rotate(360deg); 
+}

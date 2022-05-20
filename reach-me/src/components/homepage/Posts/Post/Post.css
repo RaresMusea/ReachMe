@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:wght@100&family=PT+Sans&family=Rajdhani&display=swap');
+
+.PostContainer{
+  width:620px;
+  border: 2px solid #dbdbdb;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #fff;
+  margin-top: 30px;
+  border-radius:9px;
+}
+
+.PostHeader{
+  height:75px;
+  border-bottom: 2px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+}
+
+.PostOwnerProfilePic{
+  min-width:40px;
+  min-height: 40px;
+  margin:.8em;
+
+}
+
+.PostOwner{
+  font-family: 'PT Sans',sans-serif;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.Location{
+  margin-top: 0;
+  font-family: 'PT Sans',sans-serif;
+  text-align:left;
+}
+
+.Image{
+  width:620px;
+}
+
+.ButtonsContainer{
+  margin-left:10px;
+}
+
+.PostOption{
+  width:30px;
+  height:30px;
+  margin:10px;
+  transition:.3s ease-in-out;
+}
+
+.PostOption:hover{
+  transform:scale(1.2);
+}
+
+.NumberOfLikes{
+  font-family: 'PT Sans',sans-serif;
+  font-size:1em;
+  font-weight: bolder;
+  margin-left:20px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+.CommentText{
+  font-family: 'PT Sans',sans-serif;
+  margin-left:15px;
+}
+
+.CommentUserName{
+  font-family: 'PT Sans',sans-serif;
+  font-weight: bolder;
+}
+
+.AddComment{
+  height:56px;
+  width:608px;
+  border:1px solid #dbdbdb;
+  padding-left:10px;
+  font-size:1em;
+  outline:none;
+  margin-bottom:5px;
+  border-bottom: none;
+  border-left:none;
+  border-right:none;
+}
+
+.AddComment::selection{
+  background-color:#108c8e;
+  color:white;
+}
+
+
